@@ -4,8 +4,6 @@ import os
 class helper:
 
     def draw_board(spots):
-        os.system('cls') or None
-        print("Let's play Tic Tac Toe!!!\n")
         board = (f"|{spots[1]}|{spots[2]}|{spots[3]}|\n"
                  f"|{spots[4]}|{spots[5]}|{spots[6]}|\n"
                  f"|{spots[7]}|{spots[8]}|{spots[9]}|\n")
@@ -35,6 +33,3 @@ class helper:
             return True
         else:
             return False
-
-    def play_again(again):
-        pass
