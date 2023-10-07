@@ -1,9 +1,5 @@
-from Useful import Menu
+import Useful
 import os
 
-# import sys
-# sys.path(0, "C:\\python\\Python_Udemy\\MathTables")
-
-
 os.system('cls') or None
-Menu.Menu()
+Useful.Menu.Menu()
