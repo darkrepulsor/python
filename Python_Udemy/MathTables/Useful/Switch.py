@@ -1,4 +1,5 @@
 from Operations import Operations as op
+import Game as gm
 
 
 class Switch:
@@ -13,5 +14,8 @@ class Switch:
                 return op.Operations.Addition()
             elif operation == 4:
                 return op.Operations.Subtract()
+            elif operation == 5:
+                return gm.TicTacToe.Main()
+
         except AttributeError:
             print("There is no such attribute")
